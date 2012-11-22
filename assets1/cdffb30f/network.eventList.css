@@ -1,0 +1,6 @@
+#wlt-NetworkEventList .avatar{width: 30px; height: 30px;}
+#wlt-NetworkEventList .avatar p {margin-left: -35px;}
+#wlt-NetworkEventList .avatar img{height: 30px;}
+
+#wlt-NetworkEventList .event {margin: 1.5em 0 0 0;}
+#wlt-NetworkEventList .message {word-wrap: break-word;}

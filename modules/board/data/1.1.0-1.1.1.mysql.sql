@@ -1,0 +1,1 @@
+ALTER TABLE `{{Board}}` ADD `cover` bigint unsigned;

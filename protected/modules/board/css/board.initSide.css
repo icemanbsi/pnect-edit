@@ -1,0 +1,26 @@
+.classic-theme #wlt-BoardInitSide ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.classic-theme #wlt-BoardInitSide ul li a {
+    background-color: #F7F7F7;
+    border: 1px solid #CCCCCC;
+    border-radius: 3px 3px 3px 3px;
+    color: #666666;
+    font-size: 110%;    
+    padding: 5px 7px;
+    text-decoration: none;
+	width: 210px;
+	float: right;
+	
+}
+.classic-theme #wlt-BoardInitSide ul li a img{
+	float: right;
+	margin-top: 2px;
+}
+.classic-theme #wlt-BoardInitSide ul li {
+    margin: 0 0 10px;
+    padding: 0;
+}

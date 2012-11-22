@@ -1,0 +1,1 @@
+<div class='clearfix comments'><?php echo $content; ?></div>

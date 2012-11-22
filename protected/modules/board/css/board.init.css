@@ -1,0 +1,14 @@
+.classic-theme #wlt-BoardInit .buttons{
+	float: left;
+	margin-left: 0;
+}
+
+.classic-theme #wlt-BoardInit .removeBoard{
+	position: relative;
+	top: 10px;
+	left: -27px;
+}
+
+.classic-theme #wlt-BoardInit .row .boardTitle{
+	height: 25px;
+}

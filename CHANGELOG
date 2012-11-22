@@ -1,0 +1,112 @@
+UniProgy Pinnect Change Log
+===========================
+
+Version 1.1.2 Jul 12, 2012
+--------------------------
+
+- Bug: If the user didn't create a board first time, then it was impossibility to add a post while creating a new board
+- Bug: Lightbox is disabled for IE8		
+- Bug: An error occures with 'Powered by' notice when a new language is added
+- Bug: Add feature fixed		
+- Enh: Board URLs can be automatically changed with tool http://yourdomain.com/system/RenameBoardUrl		
+- Enh: The username is clickable on a post page
+
+Version 1.1.1 Jul 8, 2012
+-------------------------
+- Bug: Some issues with captcha are fixed
+- Bug: While adding a post a board can be created but it was not listed
+- Bug: Categories are not being sorted correctly
+- Bug: Embed code in IE is fixed
+- Bug: Already registered users cannot be invited on the site again
+- Enh: Amount of chars in comments can be limited
+- Enh: Boards have covers
+- Enh: Welcome email after the registration
+- Enh: Follow Me button is added
+- Enh: A profile feed is improved
+- Enh: Multilingual 'Powered By' notice
+- Enh: Plain text form for help articles, pages and blocks
+
+Version 1.1.0 Jul 2, 2012
+-------------------------
+- Bug: Double site title
+- Bug: All pins are not centered after a search
+- Bug: An error occures when a board followed by other users is deleted
+- Enh: First created boards are added into categories
+- Enh: 'All Pins' or 'Users you follow' can be shown on a main page
+- Enh: An amount of commentaries displayed on a main page can be limited from an admin panel
+- Enh: 'Sticky' top menu
+- Enh: Top banner box for unregistered users
+- Enh: Mail notifications when someone follows/unfollows, re-pins posts, comments and likes pins
+- Enh: An email notification about an invitation for an admin
+- Enh: An user can create board while adding a pin
+- Enh: 'View' button that shows a full-sized image
+- Enh: An admin can change categories of boards
+- Enh: SEO-friendly titles for all pages
+- Enh: Lightbox extension for pins
+- Enh: Button to view an image in the original size is added for a pin
+
+Version 1.0.5 Jun 6, 2012
+-------------------------
+- Chg: storage has been put into a separate function - required change for Cloud module.
+
+Version 1.0.4 May 28, 2012
+--------------------------
+- Bug: upload button was not shown in IE
+- Bug: when Picture Module URL is empty all pages except a main one cannot be opened
+- Bug: fixed picture upload from websites
+- Bug: Report post: unless there's a reason, the report can be sent 
+- Bug: fixed problems with Contributors
+- Bug: when creating the first board access rights are not chosen
+- Bug: long words go out of a pin borders
+- Bug: when the script doesn't find at least one image that doesn't fit required sizes it doesn't load all images from that URL
+- Bug: Picture post doesn't work when the script is installed into a subfolder
+- Bug: When using the bookmarklet on a long-scrolling website there's no chance to see the images in the overlay
+- Bug: 'Likes' words are the same in langauge file
+- Bug: user can create boards with the same name
+- Enh: Captcha was added into Report Post and Report Comment pages for unregistered users
+
+Version 1.0.3 May 4, 2012
+-------------------------
+- Bug: table "PictureCommentReport" name typo.
+- Bug: title "More from <website>" overlaps the rest of the widget when the URL of the site is too long.
+- Bug: when viewing video page and trying to open any popup dialog - video will not hide.
+- Bug: non logged-in user clicks "like" -> redirected to login -> successful login -> error.
+- Bug: users deletion causes errors.
+- Bug: wrong image gets shared on Facebook.
+- Bug: when a user edit his/her account, it keep asking password confirmation even that was not password been edited.
+- Bug: it is not possible to post a comment for posts that are loaded dynamically (works for initially loaded though).
+- Bug: when clicking on an image it should always open in a new tab/window.
+- Bug: using quotes and & symbols in board or post title causes them to appear as &quot; and &amp; on board or post view pages.
+- Bug: when comment is deleted total post comments count doesn't update.
+- Bug: un-enabled categories still show up across the site.
+- Enh: suggest to create initial boards upon registration.
+- Enh: sort categories by alphabet across the site.
+
+Version 1.0.2 April 18, 2012
+----------------------------
+- Bug: extension is not stored for any posted image.
+- Bug: 500 error for avatar upload.
+
+Version 1.0.1 April 16, 2012
+----------------------------
+- Bug: improved reserved words username input validation.
+- Bug: when "Visitor Access" is set to "Allow visitors to access only home and registration pages" attempts to open a site end with infinit redirect.
+- Bug: several typos acorss the script.
+- Bug: improper support for international characters.
+- Bug: no pagination for comments.
+- Bug: allow - and _ in usernames.
+- Bug: several unused Couponic files removed from Pinnect.
+- Bug: missing username field in admin user edit and user create forms.
+- Bug: error when creating new theme.
+- Chg: board URL is no longer an input field. Script automatically generates board URL based on it's title.
+- Chg: when viewing post and clicking on an image it should redirect to the source where it was taken from.
+- Chg: when adding animated GIFs animation should remain on the main post view page.
+- Enh: ability to view post after it has been submitted via "post it" button.
+- Enh: comments reporting.
+- Enh: search should also look through board titles as well.
+- Enh: when admin is viewing a post there are 2 new buttons: delete post and delete picture (moderation).
+- Enh: ability to "request" an invitation - admin can "release" invitations in bulk or individually.
+
+Version 1.0.0 April 5, 2012
+---------------------------
+- Initial Release

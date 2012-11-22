@@ -1,0 +1,13 @@
+#wlt-BaseTopMenu ul li {line-height: 20px;}
+#wlt-BaseTopMenu .sf-menu li:hover ul {top: 20px;}
+#wlt-BaseTopMenu .userItem {
+	width: 20px; height: 20px;
+	overflow: hidden;
+}
+#wlt-BaseTopMenu .userItem p {
+	padding: 0; margin: 0;
+	width: 100px; margin-left: -40px; text-align: center;
+}
+#wlt-BaseTopMenu .userItem img {
+	height: 20px;
+}

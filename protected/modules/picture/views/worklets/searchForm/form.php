@@ -1,0 +1,1 @@
+<form action='<?php echo url('/picture/search'); ?>' method='get' class='clearfix'><div class='column'><input type='text' name='q' value='<?php echo $this->value(); ?>'></div><div class='column'><input type='submit' value='<?php echo $this->t('Search'); ?>'></div></form>

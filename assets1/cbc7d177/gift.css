@@ -1,0 +1,40 @@
+.gift {position: static}
+#wlt-PictureView .gift, .simpleSlide-slide.gift {position: relative;}
+.gift .container {
+    height: 110px;
+    overflow: hidden;
+    position: absolute;
+    width: 110px;
+    z-index: 2;
+}
+.gift .view {
+    left: 0px;
+    top: 0px;
+}
+.gift .card {
+    left: 0px;
+    top: 0px;
+}
+
+.gift .price {
+	-webkit-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+    background-color: #e5e5e5;
+    color: #524D4D;
+    font-size: 11px;
+    height: 22px;
+    left: -28px;
+    overflow: hidden;
+    padding-top: 8px;
+    position: absolute;
+    text-align: center;
+    top: 19px;
+    width: 125px;
+    z-index: 2;
+}
+
+.gift .view .price {
+	background-color: #dddddd;
+}

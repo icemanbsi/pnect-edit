@@ -1,0 +1,1 @@
+<div class='row'><input type='text' class='boardTitle' placeholder='<?php echo $this->t('Board Title');?>' name='boards[]' value='<?php if(isset($value)&&$value) echo $value;?>'><a class='removeBoard' href='#' style='display: none;'><img src='<?php echo str_replace('"','\'',aUrl('/images/minus.png'));?>'/></a></div>

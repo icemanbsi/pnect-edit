@@ -1,0 +1,45 @@
+.pictureCommentAdd .hint {margin-left: 60px; padding: 0; display: none;}
+.pictureCommentAdd label {
+	width: auto; margin: 0 10px 0 0;
+}
+.pictureCommentAdd textarea {
+	width: 600px;
+	height: 42px;
+	padding: 3px;
+	resize:none;
+}
+.pictureCommentAdd .buttons {
+	margin-left: 0;
+	text-align: right;
+	display: none;
+}
+
+#wlt-PictureList label {
+	margin-right: 6px;
+}
+#wlt-PictureList .pictureCommentAdd textarea {
+	width: 148px;
+	height: 22px;
+	padding: 3px;
+	resize:none;
+}
+#wlt-PictureList .pictureCommentAdd .buttons {
+	margin-left: 0;
+	text-align: right;
+	display: none;
+}
+
+.pictureCommentAdd .CommentLeft{
+	position: relative;
+	font-size: 70%;
+	line-height: 10px;
+	display: none;
+	width: 190px;
+	text-align: right;
+}
+#wlt-PictureList .CommentLeft{
+	width: 190px;
+}
+#wlt-PictureView .CommentLeft{
+	width: 640px;
+}

@@ -1,0 +1,317 @@
+#wlt-NetworkEventList .avatar{width: 30px; height: 30px;}
+#wlt-NetworkEventList .avatar p {margin-left: -35px;}
+#wlt-NetworkEventList .avatar img{height: 30px;}
+
+#wlt-NetworkEventList .event {margin: 1.5em 0 0 0;}
+#wlt-NetworkEventList .message {word-wrap: break-word;}
+.follower {margin: 0 0 1em 0; padding: 1em 0 0 0; border-top: 1px solid #d7d7d7;}
+.follower:first-child {border: none;}
+.follower {margin: 0 0 1em 0; padding: 1em 0 0 0; border-top: 1px solid #d7d7d7;}
+.follower:first-child {border: none;}
+.classic-theme #wlt-NetworkInvite textarea {
+    width: 300px;
+}
+
+.classic-theme #wlt-NetworkInviteMenu {
+    left: 50%;
+    margin-left: 200px;
+    position: absolute;
+    top: 150px;
+}
+.classic-theme #wlt-NetworkInviteMenu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.classic-theme #wlt-NetworkInviteMenu ul li a {
+    background-color: #F7F7F7;
+    border: 1px solid #CCCCCC;
+    border-radius: 3px 3px 3px 3px;
+    color: #666666;
+    font-size: 110%;    
+    padding: 5px 7px;
+    text-decoration: none;
+}
+
+.classic-theme #wlt-NetworkInviteMenu ul li {
+    margin: 0 0 10px;
+    padding: 0;
+}
+.boardCard {border: 1px solid #d7d7d7; width: 218px;}
+.boardCard .boardTitle {margin: 5px 15px; height: 20px;}
+.moreCard.boardCard .boardTitle {height: auto;}
+.boardCard .boardMini a {padding: 0 0 0 15px; display: block; width: 203px; height: 192px;}
+.boardCard .boardAction {margin: 5px 15px;}
+.boardCard .boardMini div.mini {width: 60px;height: 60px;overflow: hidden;margin: 0 4px 4px 0;float: left;}
+.boardCard .boardMini div.mini p {width: 100px;margin-left: -20px;text-align: center;}
+.boardCard .boardMini div.mini p img {height: 60px;}
+.boardCard.moreCard .boardMini a {height: auto; margin-bottom: 4px;}
+
+.boardCard .boardMini div.cover {width: 205px;height: 120px;overflow: hidden;margin: 0 4px 4px 0;float: left;}
+.boardCard .boardMini div.cover p {width: 205px;margin-left: -10px;text-align: center;}
+
+#wlt-BoardCoverIndex{
+	width: 400px;
+	margin: 20px auto;
+    position: static;
+	text-align: center;
+}
+#wlt-BoardCoverIndex form{
+	margin: 0 0 0 0;
+}
+#wlt-BoardCoverIndex  input[type="submit"] {
+    font-size: 100%;
+    padding: 5px 10px;
+}
+#wlt-BoardCoverIndex .boardCard{
+	width: 218px;
+	margin: 25px auto;
+    position: static;
+}
+#wlt-BoardCoverIndex .prev{
+	position: relativ;
+	float: left;
+	width: 30px;
+}
+#wlt-BoardCoverIndex .next{
+	position: relative;
+	float: right;
+	width: 30px;
+}
+.classic-theme #wlt-BoardInit .buttons{
+	float: left;
+	margin-left: 0;
+}
+
+.classic-theme #wlt-BoardInit .removeBoard{
+	position: relative;
+	top: 10px;
+	left: -27px;
+}
+
+.classic-theme #wlt-BoardInit .row .boardTitle{
+	height: 25px;
+}
+
+.classic-theme #wlt-BoardInitSide ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.classic-theme #wlt-BoardInitSide ul li a {
+    background-color: #F7F7F7;
+    border: 1px solid #CCCCCC;
+    border-radius: 3px 3px 3px 3px;
+    color: #666666;
+    font-size: 110%;    
+    padding: 5px 7px;
+    text-decoration: none;
+	width: 210px;
+	float: right;
+	
+}
+.classic-theme #wlt-BoardInitSide ul li a img{
+	float: right;
+	margin-top: 2px;
+}
+.classic-theme #wlt-BoardInitSide ul li {
+    margin: 0 0 10px;
+    padding: 0;
+}
+.ui-sortable { list-style-type: none; margin: 0; padding: 0; }
+.ui-sortable li {float: left; margin: 0 5px 5px 0;}
+
+.boardCard {border: 1px solid #d7d7d7;}
+.boardCard .boardTitle {margin: 5px 15px;}
+.boardCard .boardMini a {padding: 0 0 0 15px; display: block; width: 203px; height: 192px;}
+.boardCard .boardAction {margin: 5px 15px;}
+.boardCard .boardMini div.mini {width: 60px;height: 60px;overflow: hidden;margin: 0 4px 4px 0;float: left;}
+.boardCard .boardMini div.mini p {width: 100px;margin-left: -20px;text-align: center;}
+.boardCard .boardMini div.mini p img {height: 60px;}
+
+
+#wlt-PictureCategoryList .listImage{
+	width: 100px;
+}
+
+
+.pictureCommentAdd .hint {margin-left: 60px; padding: 0; display: none;}
+.pictureCommentAdd label {
+	width: auto; margin: 0 10px 0 0;
+}
+.pictureCommentAdd textarea {
+	width: 600px;
+	height: 42px;
+	padding: 3px;
+	resize:none;
+}
+.pictureCommentAdd .buttons {
+	margin-left: 0;
+	text-align: right;
+	display: none;
+}
+
+#wlt-PictureList label {
+	margin-right: 6px;
+}
+#wlt-PictureList .pictureCommentAdd textarea {
+	width: 148px;
+	height: 22px;
+	padding: 3px;
+	resize:none;
+}
+#wlt-PictureList .pictureCommentAdd .buttons {
+	margin-left: 0;
+	text-align: right;
+	display: none;
+}
+
+.pictureCommentAdd .CommentLeft{
+	position: relative;
+	font-size: 70%;
+	line-height: 10px;
+	display: none;
+	width: 190px;
+	text-align: right;
+}
+#wlt-PictureList .CommentLeft{
+	width: 190px;
+}
+#wlt-PictureView .CommentLeft{
+	width: 640px;
+}
+.comments .post {padding: 1em 0;}
+.comments .message {word-wrap: break-word;}
+.pictureItem {float:left; margin: 0 0 15px 0; border: 1px solid #d7d7d7; width: 222px; padding: 0;}
+.pictureCard {position: relative; top: 0; left: 0;}
+.pictureCard .worklet {margin: 0;}
+.pictureCard > div {padding: 10px 15px;}
+.pictureCard .pictureImage {padding-top: 15px;}
+.pictureCard .pictureButtons {position: absolute; top: 7px; left: 7px; display: none; padding: 0;z-index: 5;}
+.pictureCard .pictureStats ul li {margin-right: 5px;}
+.pictureCard .avatar{width: 30px; height: 30px;}
+.pictureCard .avatar p {margin-left: -35px;}
+.pictureCard .avatar img{height: 30px;}
+.pictureCard .pictureChannel {background-color: #f2f2f2;}
+.pictureCard .pictureComments {background-color: #f2f2f2; padding: 0;}
+.pictureCard .pictureComments .message-txt {overflow: hidden;}
+.pictureCard .pictureComments .column {margin-right: 6px;}
+.pictureCard .pictureComments .avatar img{height: 30px;}
+.pictureCard .pictureComments .comments .post {padding: 10px 15px; border-top: 1px solid #d7d7d7;}
+.pictureCard .pictureComments .pictureCommentAdd {padding: 10px 15px; border-top: 1px solid #d7d7d7;}
+.pictureCard .pictureComments .pictureCommentAdd .row {margin: 0;}
+.pictureCard .pictureComments .pictureCommentAdd .buttons {margin-top:.5em;}
+#wlt-PictureList .pager {display: none;}
+#wlt-PictureScroll {display: none; z-index: 9999; position: fixed; bottom: -1px; right: 15px; background: #fff; border:1px solid #d7d7d7; font-size: 120%; font-weight: bold; margin: 0;}
+#wlt-PictureScroll a {font-weight: bold; color: #666; display: block; padding: 1em; width: 50px;}
+
+.pictureButtons ul li a {background-color: #fff; border: 1px solid #d7d7d7; padding: 5px; margin-right: 5px; display: block;}
+
+#wlt-PictureList #infscr-loading {padding: 2em; text-align: center; font-size: 150%;}
+#wlt-PictureEdit .preview img {
+	border: 1px solid #bbb;
+	padding: 5px;
+}
+#wlt-PictureInfoFollow{
+	margin-top: 50px;
+}
+#wlt-PictureInfoFollow input{
+	float: right;
+	width: 700px;
+	margin: auto 0;
+}
+
+#wlt-PictureInfoFollow input[name="big"]{
+	position: relative; 
+	margin-top: 14px;
+}
+#wlt-PictureOptions .worklet-content{
+	margin: 20px auto;
+	position: static;
+	width: 572px;
+}
+
+
+#wlt-PicturePost {display: none}
+
+#wlt-PicturePost .simpleSlide-slide {
+	width: 170px;
+	height: 170px;
+	max-height: 170px;
+	overflow: hidden;
+	text-align: center;
+}
+#wlt-PicturePost .simpleSlide-slide img {
+	max-width: 160px; max-height: 160px; margin: 5px;
+}
+#wlt-PicturePost .controls .left-button {
+	float: left;
+	cursor: pointer;
+}
+#wlt-PicturePost .controls .right-button {
+	float: right;
+	cursor: pointer;
+}
+#wlt-PicturePost .simpleSlide-window {
+	border: 1px solid #bbb;
+}
+#wlt-PicturePost .controls {
+	width: 162px;
+	background-color: #bbb; color: #fff;
+	padding: 3px 5px;
+}
+#wlt-PicturePost textarea {
+	width: 300px; height: 100px;
+}
+
+#wlt-PicturePost #MPictureForm_boardTitle {
+	width: 300px;
+}
+
+#wlt-PictureShareMenu {
+	position: absolute;
+	top: 100px;
+	left: 50%;
+	margin-left: 490px;
+}
+#wlt-PictureView h2 {
+	padding: 0; margin: 0 0 .2em 0; line-height: 1;
+}
+.ui-dialog {width: 600px;}
+.ui-widget .content {
+	font-family:"Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+.ui-widget-overlay { background: transparent; position: fixed; top: 0; left: 0; }
+/* language select */
+#wlt-BaseLanguage {position: relative; width: 160px; float: right;}
+#wlt-BaseLanguage .langSelector {position: absolute; width: 160px;}
+#wlt-BaseLanguage .langList {display: none;}
+#wlt-BaseLanguage a {display:block;}
+.sf-menu li:hover ul,
+.sf-menu li.sfHover ul {top: 2em;}
+.sf-menu ul {padding: 0; margin-left: -1px}
+#wlt-BaseTopMenu ul li {line-height: 20px;}
+#wlt-BaseTopMenu .sf-menu li:hover ul {top: 20px;}
+#wlt-BaseTopMenu .userItem {
+	width: 20px; height: 20px;
+	overflow: hidden;
+}
+#wlt-BaseTopMenu .userItem p {
+	padding: 0; margin: 0;
+	width: 100px; margin-left: -40px; text-align: center;
+}
+#wlt-BaseTopMenu .userItem img {
+	height: 20px;
+}
+#wlt-LocationSelect {display:none}
+#wlt-LocationSelect ul.country, #wlt-LocationSelect ul.country .state, #wlt-LocationSelect ul.country .city {display: none}
+#wlt-LocationSelect ul {list-style-type: none; margin:0; padding:0;}
+#wlt-LocationSelect li {padding:0; margin:0; float: left;}
+#wlt-LocationSelect .currentCountry, #wlt-LocationSelect a {padding: .5em; margin:0;}
+#wlt-LocationSelect .search a {float: left;}
+#wlt-LocationSelect li.state {float: none}
+#wlt-LocationSelect li.country {float: none; width: 100%; clear: both;}
+#wlt-LocationSelect ul:after {content:"\0020";display:block;height:0;clear:both;visibility:hidden;overflow:hidden;}
+#wlt-UserMenu .welcome img {width: 30px}

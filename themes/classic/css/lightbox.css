@@ -1,0 +1,36 @@
+#lightbox{
+	background-color: rgba(255, 255, 255, 0.93);
+	bottom: 0;
+    left: 0;
+    overflow-x: auto;
+    overflow-y: scroll;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 10500;
+}
+
+#lightbox #wlt-BoardSide, 
+#lightbox #wlt-PictureMore {
+	position: fixed;
+	margin-top: 20px;
+	right: 50%; 
+	margin-right: 390px;
+}
+
+#lightbox #wlt-PictureMore {
+	margin-top: 350px;
+
+}
+
+#lightbox #wlt-PictureView{
+	width: 650px;
+	margin: 20px auto;
+    position: static;
+}
+#lightbox #wlt-PictureShareMenu{
+	left: 50%;
+    margin-left: 390px;
+    position: fixed;
+    top: 162px;
+}

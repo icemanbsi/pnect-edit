@@ -1,0 +1,26 @@
+.pictureItem {float:left; margin: 0 0 15px 0; border: 1px solid #d7d7d7; width: 222px; padding: 0;}
+.pictureCard {position: relative; top: 0; left: 0;}
+.pictureCard .worklet {margin: 0;}
+.pictureCard > div {padding: 10px 15px;}
+.pictureCard .pictureImage {padding-top: 15px;}
+.pictureCard .pictureButtons {position: absolute; top: 7px; left: 7px; display: none; padding: 0;z-index: 5;}
+.pictureCard .pictureStats ul li {margin-right: 5px;}
+.pictureCard .avatar{width: 30px; height: 30px;}
+.pictureCard .avatar p {margin-left: -35px;}
+.pictureCard .avatar img{height: 30px;}
+.pictureCard .pictureChannel {background-color: #f2f2f2;}
+.pictureCard .pictureComments {background-color: #f2f2f2; padding: 0;}
+.pictureCard .pictureComments .message-txt {overflow: hidden;}
+.pictureCard .pictureComments .column {margin-right: 6px;}
+.pictureCard .pictureComments .avatar img{height: 30px;}
+.pictureCard .pictureComments .comments .post {padding: 10px 15px; border-top: 1px solid #d7d7d7;}
+.pictureCard .pictureComments .pictureCommentAdd {padding: 10px 15px; border-top: 1px solid #d7d7d7;}
+.pictureCard .pictureComments .pictureCommentAdd .row {margin: 0;}
+.pictureCard .pictureComments .pictureCommentAdd .buttons {margin-top:.5em;}
+#wlt-PictureList .pager {display: none;}
+#wlt-PictureScroll {display: none; z-index: 9999; position: fixed; bottom: -1px; right: 15px; background: #fff; border:1px solid #d7d7d7; font-size: 120%; font-weight: bold; margin: 0;}
+#wlt-PictureScroll a {font-weight: bold; color: #666; display: block; padding: 1em; width: 50px;}
+
+.pictureButtons ul li a {background-color: #fff; border: 1px solid #d7d7d7; padding: 5px; margin-right: 5px; display: block;}
+
+#wlt-PictureList #infscr-loading {padding: 2em; text-align: center; font-size: 150%;}

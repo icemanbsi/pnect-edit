@@ -1,0 +1,97 @@
+body {background-color: {body.bcg}; color: {body.color};height: 100%; width:100%;}
+a {color: {link.color};}
+.worklet-title {background-color: {worklet.header.bcg}; border-color: {worklet.header.border}; color: {worklet.header.color};}
+#header {background-color: {header.bcg};}
+#header .topmenu a {color: {topmenu.color};}
+#mainmenu {background-color: {mainmenu.bcg};}
+#mainmenu a {color: {mainmenu.color};}
+#wlt-BaseDialog form label {color: {dialog.text};}
+#mainmenu .sf-menu ul {background-color: {submenu.bcg};}
+#mainmenu .sf-menu ul li a {color: {submenu.color};}
+#mainmenu .sf-menu ul li a:hover {background-color: {submenu.hover.bcg};}
+.classic-theme #wlt-BaseTopMenu .sf-menu ul {background-color: {submenu.bcg};}
+.classic-theme #wlt-BaseTopMenu .sf-menu ul li a {color: {submenu.color};}
+.classic-theme #wlt-BaseTopMenu .sf-menu ul li a:hover {background-color: {submenu.hover.bcg};}
+.classic-theme .pictureItem {color: {picture.color}; background-color: {picture.bcg};}
+.classic-theme .pictureItem a {color: {picture.link.color};}
+.classic-theme .pictureCard .pictureStats li {color: {picture.stats.color};}
+.classic-theme .pictureCard .pictureChannel {background-color: {picture.highlight};}
+.classic-theme .pictureCard .pictureComments {background-color: {picture.highlight};}
+.classic-theme .ui-dialog {border-color: {dialog.border.color};}
+.classic-theme .ui-dialog .ui-dialog-titlebar {background-color: {dialog.header.bcg}; border-color: {dialog.border.color};}}
+#wlt-PictureOptions .column a {color: {dialog.text};}
+#wlt-PictureOptions .column a:hover {background-color: {dialog.highlight};}
+.buttonLink a {background-color: {button.bcg}; border-color: {button.border}; color: {button.color};}
+.buttonLink a:hover {background-color: {button.hover.bcg}; border-color: {button.hover.border}; color: {buton.hover.color};}
+#wlt-NetworkEventList {color: {picture.color};}
+#wlt-NetworkEventList a {color: {picture.color};}
+.profileTopMenu {background-color: {worklet.header.bcg}; border-color: {worklet.header.border};}
+#content > #wlt-PictureProfileMenu {background-color: {worklet.header.bcg}; border-color: {worklet.header.border};}
+.classic-theme .boardCard {color: {picture.color}; background: {picture.bcg};}
+.classic-theme #wlt-BoardView .container h3 {background-color: {worklet.header.bcg}; border-color: {worklet.header.border};}
+.classic-theme #wlt-BoardView .container .description {background-color: {worklet.header.bcg}; border-color: {worklet.header.border};}
+.classic-theme #wlt-BoardView .container > .clearfix {color: {worklet.header.color}; background: {worklet.header.bcg};}
+.classic-theme #wlt-PictureView {color: {picture.color}; background-color: {picture.bcg};}
+.classic-theme #wlt-PictureView .pictureImage {background-color: {picture.slide.bcg};}
+.classic-theme #wlt-PictureLikesList {border-color: {separator};}
+.classic-theme #wlt-PictureRepostsList {border-color: {separator};}
+.classic-theme #wlt-PictureShareMenu ul li a {background-color: {share.bcg}; border-color: {share.border}; color: {share.color};}
+.classic-theme #wlt-PictureShareMenu ul li a:hover {background-color: {share.hover.bcg}; border-color: {share.hover.border}; color: {share.hover.color};}
+.classic-theme #wlt-PictureScroll {border-color: {scroll.border};color: {scroll.color};}
+.classic-theme #wlt-PictureSearchForm {background-color: {search.bcg}; border-color: {search.border};}
+.classic-theme #wlt-PictureSearchForm form input[type=text] {color: {search.color};}
+#wlt-PicturePost .colborder {border-color:{separator};}
+#wlt-PictureEdit .preview {background-color: {picture.bcg};}
+.classic-theme .pictureButtons li a {background-color: {button.bcg};}
+
+.wrap {
+  margin: 0 auto;
+  max-width: 1040px;
+  padding: 0 20px;
+  position: relative;
+}
+.head {
+  height: 60px;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+.head.alt,
+.head.alt a {
+  color: #fff;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+}
+.head .logo {
+  position: absolute;
+  top: 0;
+  left: 20px;
+}
+.head .search {
+  position: absolute;
+  top: 0;
+  right: 20px;
+}
+.head ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  padding-top: 30px;
+}
+.head ul>li {
+  margin: 0;
+}
+.head ul.menu li {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: bold;
+  margin: 0 10px;
+  padding: 0;
+  padding-bottom: 3px;
+  text-transform: uppercase;
+}
+.head ul.menu li.active {
+  border-bottom: 3px solid;
+}
+.head ul.menu li a {
+  text-decoration: none;
+}

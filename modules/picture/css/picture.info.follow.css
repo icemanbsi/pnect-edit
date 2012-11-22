@@ -1,0 +1,13 @@
+#wlt-PictureInfoFollow{
+	margin-top: 50px;
+}
+#wlt-PictureInfoFollow input{
+	float: right;
+	width: 700px;
+	margin: auto 0;
+}
+
+#wlt-PictureInfoFollow input[name="big"]{
+	position: relative; 
+	margin-top: 14px;
+}

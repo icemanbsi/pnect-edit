@@ -1,0 +1,1 @@
+<div class='row'><?php echo $this->t('Category:');?><br/><?php echo CHtml::dropDownList('categoryId', null, wm()->get('picture.category.helper')->categoryAsList())?></div>

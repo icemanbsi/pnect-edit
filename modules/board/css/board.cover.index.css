@@ -1,0 +1,28 @@
+#wlt-BoardCoverIndex{
+	width: 400px;
+	margin: 20px auto;
+    position: static;
+	text-align: center;
+}
+#wlt-BoardCoverIndex form{
+	margin: 0 0 0 0;
+}
+#wlt-BoardCoverIndex  input[type="submit"] {
+    font-size: 100%;
+    padding: 5px 10px;
+}
+#wlt-BoardCoverIndex .boardCard{
+	width: 218px;
+	margin: 25px auto;
+    position: static;
+}
+#wlt-BoardCoverIndex .prev{
+	position: relativ;
+	float: left;
+	width: 30px;
+}
+#wlt-BoardCoverIndex .next{
+	position: relative;
+	float: right;
+	width: 30px;
+}

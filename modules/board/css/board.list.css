@@ -1,0 +1,10 @@
+.ui-sortable { list-style-type: none; margin: 0; padding: 0; }
+.ui-sortable li {float: left; margin: 0 5px 5px 0;}
+
+.boardCard {border: 1px solid #d7d7d7;}
+.boardCard .boardTitle {margin: 5px 15px;}
+.boardCard .boardMini a {padding: 0 0 0 15px; display: block; width: 203px; height: 192px;}
+.boardCard .boardAction {margin: 5px 15px;}
+.boardCard .boardMini div.mini {width: 60px;height: 60px;overflow: hidden;margin: 0 4px 4px 0;float: left;}
+.boardCard .boardMini div.mini p {width: 100px;margin-left: -20px;text-align: center;}
+.boardCard .boardMini div.mini p img {height: 60px;}
