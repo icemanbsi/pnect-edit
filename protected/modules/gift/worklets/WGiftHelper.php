@@ -9,7 +9,7 @@ class WGiftHelper extends USystemWorklet
 
 	public function taskPriceViewFormat($price,$escape=false)
 	{
-		return $this->priceFormat(sprintf("%.2f",$price),$escape);
+		return $this->priceFormat2($price, 2,$escape);
 	}
 
 	public function taskPriceFormat($price,$escape=false)
@@ -17,6 +17,15 @@ class WGiftHelper extends USystemWorklet
 		$symbol = m('gift')->params['symbol'];
 		return strtr(m('gift')->params['template'], array(
 			'{price}' => str_replace('.', app()->locale->getNumberSymbol('decimal'),$price),
+			'{symbol}' => $escape?preg_quote($symbol,'/'):$symbol
+		));
+	}
+	
+	public function taskPriceFormat2($price,$dec,$escape=false)
+	{
+		$symbol = m('gift')->params['symbol'];
+		return strtr(m('gift')->params['template'], array(
+			'{price}' => number_format($price, 0, ",", ".") . ",-",
 			'{symbol}' => $escape?preg_quote($symbol,'/'):$symbol
 		));
 	}

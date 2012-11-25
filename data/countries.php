@@ -704,7 +704,7 @@ return array (
   array (
     'name' => 'Indonesia',
     'language' => 'en_US',
-    'locale' => 'en_GB',
+    'locale' => 'id',
     'code' => 'ID',
   ),
   'IR' => 

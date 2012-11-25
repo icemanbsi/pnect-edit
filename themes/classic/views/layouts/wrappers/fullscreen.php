@@ -7,6 +7,21 @@
 		echo $this->clips['menu'];
 	?></div><!-- mainmenu -->
 	<?php endif; */?>
+	
+	<ul class="full slides">
+        <li><img src="images/slide-full-1.jpg" alt="">
+          <h1>Welcome to Pinnect</h1>
+          <h3>abcdefghijklmnopqrstuvwxyz</h3>
+        </li>
+        <!-- /li (full screen slide)-->
+        <li><img src="images/slide-full-2.png" alt="">
+          <h1>lorem ipsum dolor sit amet</h1>
+          <h3>lorem ipsum dolor sit amet</h3>
+        </li>
+        <!-- /li (full screen slide)-->
+      </ul>
+      <!-- /ul.slides.full-->
+	  s
 	<div class="head alt">
         <div class="wrap">
           <div class="logo"><a href="index.php"><?php echo CHtml::link(CHtml::image(app()->theme->baseUrl.'/images/logo.png', app()->name),url('/')); ?></a></div>
